@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_Incorrect"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="231dp"
+        android:layout_marginLeft="231dp"
+        android:background="#FB3D54"
+        android:fontFamily="@font/coda"
+        android:text="@string/btn_Inorect"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="317dp"
+        android:layout_height="201dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="top|center_horizontal"
+        android:text="Hello World!"
+        android:textColor="#D6D5D5"
+        android:textSize="27sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/btn_Correct"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:background="#82D81E"
+        android:fontFamily="@font/coda"
+        android:text="@string/btn_Corect"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_Next"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="221dp"
+        android:background="#7DC9EC"
+        android:fontFamily="@font/coda"
+        android:text="@string/btn_Next"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="338dp"
+        android:layout_height="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="179dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="top|center_horizontal"
+        android:text="TextView"
+        android:textColor="#D6D5D5"
+        android:textSize="27sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/text_gratitude"
+        android:layout_width="229dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp"
+        android:gravity="top|center_horizontal"
+        android:text="@string/text_gratitude"
+        android:textColor="#FDFDFD"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/text_gameName"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="@string/text_gameName"
+        android:textColor="#CFCDCD"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="276dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="top|center_horizontal"
+        android:text="@string/text_description"
+        android:textColor="#CFCCCC"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="190dp"
+        android:background="#7DC9EC"
+        android:text="@string/btn_play"
+        android:textColor="#F4F1F1"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/text_count"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:gravity="top|center_horizontal"
+        android:text="TextView"
+        android:textColor="#EDEDED"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

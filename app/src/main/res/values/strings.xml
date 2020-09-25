@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="btn_Corect">Верно</string>
+    <string name="btn_Inorect">Не верно</string>
+    <string name="btn_Next">Следующий вопрос</string>
+    <string name="text_gratitude">Спасибо за игру</string>
+    <string name="text_gameName">Викторина</string>
+    <string name="btn_play">Начать игру</string>
+    <string name="text_description">Суть игры заключается в том, что вы должны ответить верно/неверно на предложеные вам вопросы!</string>
+    <string name="question_1">У осьминогов два сердца.</string>
+    <string name="question_2">Верно ли, что сказку «Конек-горбунок» написал А.С. Пушкин?</string>
+    <string name="question_3">В мире есть растения, которые могут расти со скоростью 1 метр в день.</string>
+    <string name="question_4">Первый компьютер весил более 27 тонн и занимал целую комнату.</string>
+    <string name="question_5">Верно ли, что в русском языке 10 гласных звуков?</string>
+    <string name="question_6">Если тигра побрить, он все-равно останется полосатым.</string>
+    <string name="question_7">В Японии детям в школе запрещают писать шариковыми ручками.</string>
+</resources>
